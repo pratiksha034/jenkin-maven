@@ -3,13 +3,11 @@ package com.example;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+// Correct imports for Jakarta EE (used by Tomcat 11 and your pom.xml)
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 public class SimpleServlet extends HttpServlet {
 
