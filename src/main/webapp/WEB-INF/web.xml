@@ -13,7 +13,7 @@
 
     <servlet-mapping>
         <servlet-name>SimpleServlet</servlet-name>
-        <url-pattern>/simple-servlet</url-pattern>
+        <url-pattern>/SimpleServlet</url-pattern>
     </servlet-mapping>
 
     <welcome-file-list>
